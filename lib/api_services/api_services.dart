@@ -34,7 +34,7 @@ class ApiServices {
         headers: {"Content-Type": "application/json"},
         body: (jsonEncode({
           "title": title,
-          "Description": description,
+          "description": description,
           "is_Complete": isComplete,
         },)),
       );
